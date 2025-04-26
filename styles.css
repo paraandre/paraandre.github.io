@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    font-size: 70px;
+    color: white;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 80px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* From Uiverse.io by prashantj510 */ 
+.card {
+    width: 570px;
+    height: 762px;
+    background-image: linear-gradient(163deg, #ff6d6d 0%, #ff0000 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.3);
+    color: white;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 75px;
+    font-style: normal;
+}
+
+.card2 {
+    width: 568px;
+    height: 762px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    transition: all .2s;
+    transform: scale(0.98);
+}
+
+.contenido {
+    text-align: center;
+    padding: 30px 20px; /* Espaciado interno */
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.texto-imagen {
+    display: flex;
+    flex-direction: column; /* Imagen arriba, texto abajo */
+    align-items: center;
+    margin-top: 40px; /* Reducir este valor */
+    gap: 50px; /* Espacio entre imagen y texto */
+    padding: 0 10px;
+}
+
+.corazon {
+    width: 80px; /* Imagen un poco más grande */
+    height: auto;
+}
+
+.texto-imagen span {
+    font-size: 30px; /* Tamaño de letra para el texto */
+    text-align: center;
+}
+
+/* From Uiverse.io by adamgiebl */ 
+button {
+    font-size: 30px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #ff8686 0%, #b32c2c 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #ff4b4b;
+    transform: translateY(-0.1em);
+  }
+  
+  button:active {
+    box-shadow: inset 0px 0.1em 0.6em #ff4747;
+    transform: translateY(0em);
+  }
+
+/* From Uiverse.io by adamgiebl */ 
+.cssbuttons-io-button {
+    background: #ff6060;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #ff5c5c;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #ff3f3f;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #ff6060;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+
+a {
+    text-decoration: none;
+}
